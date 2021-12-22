@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.section-1 {
+    height: 70vh;
+    background-image: url(../img/backnav.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.section-1 .blok, footer .blok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-1 #logo, footer #logo {
+    color: white;
+    font-size: xx-large;
+    margin: 80px 60px;
+}
+
+.section-1 .number, footer .number {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+}
+
+.orderButton {
+    background-color: rgb(255,226,0);
+    font-size: x-large;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.section-1 .contact, footer .contact {
+    margin: 40px 60px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Merriweather:wght@700&family=Mukta:wght@200&display=swap');
+
+
+.section-1 .type-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    text-shadow: black 0 0 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.yellowh {
+    color: rgb(255,226,0)
+}
+
+.yellow {
+    color: rgb(255,226,0);
+}
+
+.white {
+    color: white;
+}
+
+
+/* Section Two */
+
+.section-two {
+    height: 50vh;
+    background-color: rgb(255,224,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 30px;
+}
+
+.list-tab {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-two .list-tab .bxs-flame {
+    font-size: 150px;
+}
+
+.section-two .list-tab__elements {
+    margin: 40px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-two .list-tab__elements .list-tab__text {
+    font-size: x-large;
+    text-align: center;
+    width: 250px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* Section Three */
+
+.section-three {
+    width: auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(36,25,20);
+    background-color: whitesmoke;
+}
+
+.section-three .object-info {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.section-three .object-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.section-three .object-list .object-list__elements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    margin-bottom: 30px;
+}
+
+.section-three .object-list__elements img {
+    width: 660px;
+    height: 330px;
+}
+
+.section-three .object-list__elements h2 {
+    font-size: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* Section-Fo */
+
+.section-fo {
+    height: 40%;
+    background: rgb(255,224,0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-fo h2 {
+    text-transform: uppercase;
+    font-size: calc(1vw + 1vh);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 50px;
+}
+
+.section-fo .eq-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 30px;
+    padding: 0;
+}
+
+.section-fo .eq-info .eq-info__elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 30px;
+}
+
+.section-fo .eq-info .eq-info__elements .eq-num {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 45px;
+    margin: 0px 30px;
+}
+
+.section-fo .eq-info .eq-info__elements .eq-text {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-fo .btn {
+    box-shadow: calc(0.5vh + 0.3vw), firebrick;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(255,224,0);
+    background-color: rgb(36,25,20);
+    margin: 60px;
+}
+
+
+/* Footer */
+.footer p {
+    color: black;
+    font-size: 40px;
+}
+
+.footer .contact {
+    text-decoration-skip: edges;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.footer .orderButton {
+    width: 175px;
+    font-size: 15px;
+    margin-left: 110px;
+}
+
+.footer .blok #logo {
+    color: black;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1325px ){
+    .section-two {
+        height: 100%;
+    }
+    .section-two .list-tab {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-three .object-list {
+        margin: 15px 0;
+    }
+
+
+    .section-three .object-list__elements{
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-three .object-list__elements img {
+        width: 330px;
+        height: 165px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-three .object-list__elements h2 {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+} 
+
+@media screen and (max-width: 710px) {
+
+    .section-three .object-list__elements {
+        margin: 0;
+    }
+    .section-three .object-list__elements img {
+        width: 220px;
+        height: 110px;
+        margin: 0;
+    }
+
+    .section-two .list-tab {
+        display: flex;
+        flex-direction: column;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer #logo, .section-1 #logo {
+        font-size: small;
+    }
+
+    .footer .number p, .section-1 .number p {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer .orderButton, .section-1 .orderButton {
+        width: 175px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .footer .contact, .section-1 .contact {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .section-fo .eq-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-three .object-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
